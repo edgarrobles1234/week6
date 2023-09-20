@@ -18,7 +18,7 @@ export default function Layout({ children, itIsHome }) {
 
             {!itIsHome && (
                 <Link href="/" className="btn-btn-success mt-3">
-                    Going home!
+                    Going home! Checking changes
                 </Link>
             )
             }
