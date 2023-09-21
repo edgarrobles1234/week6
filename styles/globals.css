@@ -16,6 +16,7 @@ body {
     Helvetica Neue,
     sans-serif;
     background-color: aquamarine;
+    background-image: url("../public/field.jpg");
 }
 
 a {

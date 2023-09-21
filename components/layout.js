@@ -5,7 +5,7 @@ export default function Layout({ children, itIsHome }) {
     return (
         <div>
             <Head>
-                <title>Basic Next App</title>
+                <title>QB Next App</title>
             </Head>
             <header>
                 <nav>
@@ -30,3 +30,6 @@ export default function Layout({ children, itIsHome }) {
         </div>
     );
 }
+function TesterFunction (){
+    return 2;
+};

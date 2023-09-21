@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "qb": "1",
+        "division": "AFC West"
+    },
+    {
+        "id": "2",
+        "qb": "2",
+        "division": "NFC East"
+    },
+    {
+        "id": "3",
+        "qb": "3",
+        "division": "AFC North"
+    },
+    {
+        "id": "4",
+        "qb": "4",
+        "division": "AFC East"
+    },
+    {
+        "id": "5",
+        "qb": "5",
+        "division": "NFC South"
+    },
+    {
+        "id": "6",
+        "qb": "6",
+        "division": "NFC North"
+    },
+    {
+        "id": "7",
+        "qb": "7",
+        "division": "NFC West"
+    }
+]
