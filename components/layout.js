@@ -17,7 +17,7 @@ export default function Layout({ children, itIsHome }) {
             </main>
 
             {!itIsHome && (
-                <Link href="/" className="btn-btn-success mt-3">
+                <Link href="/" className="btn btn-primary mt-3">
                     Going home! Checking changes
                 </Link>
             )
@@ -30,6 +30,3 @@ export default function Layout({ children, itIsHome }) {
         </div>
     );
 }
-function TesterFunction (){
-    return 2;
-};

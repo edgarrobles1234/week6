@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import Layout from '../components/layout';
-import { getSortedList} from '../lib/data';
+import { getSortedList} from '../lib/data-firebase';
 
 export async function getStaticProps(){
-  const allData = getSortedList();//do same thing but for other json write function
+  const allData = await getSortedList();//do same thing but for other json write function
   return {
     props: { allData}
   };
@@ -20,7 +20,7 @@ export default function HomePage ( {allData} ){
       { allData && allData.map (
         
         ({id,team, name}) =>
-        <Link key ={id} href={`/${id}`} className="list-group-item list-group-item-action">
+        <Link key={id} href={`/QB/${id}`} className="list-group-item list-group-item-action">
           <div>{name}</div>
           <div>{team}</div>
         </Link>
