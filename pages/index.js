@@ -20,7 +20,7 @@ export default function HomePage ( {allData} ){
       { allData && allData.map (
         
         ({id,team, name}) =>
-        <Link key={id} href={`/QB/${id}`} className="list-group-item list-group-item-action">
+        <Link key={id} href={`/persons/${id}`} className="list-group-item list-group-item-action">
           <div>{name}</div>
           <div>{team}</div>
         </Link>
